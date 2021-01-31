@@ -46,6 +46,12 @@ Crear una fotografia del estado actual de los archivos.
 git commit -m "mensaje para el commit"
 ```
 
+Matando dos pajaros de un tiro, el (git add . + git commit -m)
+
+```
+git commit -am "mensaje para el commit"
+```
+
 Revertir todos los cambio que hace git commit
 
 ```
@@ -104,4 +110,22 @@ Borrar una rama
 
 ```
 git branch -d <rama-name>
+```
+
+Renombra la rama master a main
+
+```
+git branch -M main
+```
+
+Asigna la ruta destino del reposito
+
+```
+git remote add origin https://github.com/pedroobando/gitbasico.git
+```
+
+Graba los cambios en el repositorio...
+
+```
+git push -u origin main
 ```
